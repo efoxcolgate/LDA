@@ -38,7 +38,7 @@ from nltk.corpus import stopwords
 stop_words = stopwords.words('english')
 stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'say'])
 #print(stop_words)
-d=pd.read_json('https://gist.githubusercontent.com/efoxcolgate/038082c66b9f06446efba3c9a6f95822/raw/77b84dd359931649c3730680844ca92f7752a87b/VegasCom7.json')
+d=pd.read_json('INSERT JSON URL HERE')
 df = pd.DataFrame(data=d)
 data = df.values.tolist()
 #pprint(data[:1])
